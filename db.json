@@ -1,3 +1,16 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, I'm Vance. How are you doing today? ",
+      "id": "039f8c4a-9442-49cf-96a0-2e5ada472513",
+      "createdAt": "2025-07-16T17:00:35.657Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, Vance! I'm doing well, thank you. How about you?",
+      "id": "ec4eb87a-939e-4a1c-b01b-8d3d5d6ca582",
+      "createdAt": "2025-07-16T17:00:37.302Z"
+    }
+  ]
 }
