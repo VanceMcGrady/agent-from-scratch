@@ -2,16 +2,16 @@
   "messages": [
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "9b6e5ffd-56da-4042-a503-d292cd79d093",
-      "createdAt": "2024-11-05T19:34:16.767Z"
+      "content": "how  is the weather?",
+      "id": "a668ab57-76c9-4a6b-8867-752c4524abea",
+      "createdAt": "2025-07-21T22:19:15.567Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_Pd2L6OWnviQmRf7RicWtvE6Y",
+          "id": "call_sCPboZFfPinnPS8jJvzmnLKN",
           "type": "function",
           "function": {
             "name": "get_stuff",
@@ -20,8 +20,9 @@
         }
       ],
       "refusal": null,
-      "id": "7c3e8fdd-f7f8-4103-9ac4-a361671aca41",
-      "createdAt": "2024-11-05T19:34:17.996Z"
+      "annotations": [],
+      "id": "232b55da-65c9-40d0-8320-74fb540810ce",
+      "createdAt": "2025-07-21T22:19:16.705Z"
     }
   ]
 }

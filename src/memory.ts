@@ -39,6 +39,19 @@ export const addMessages = async (messages: AIMessage[]) => {
   await db.write()
 }
 
+export const saveToolResponse = async (
+  toolCallId: string,
+  toolResponse: string
+) => {
+  return addMessages([
+    {
+      role: 'tool',
+      content: toolResponse,
+      tool_call_id: toolCallId,
+    },
+  ])
+}
+
 export const getMessages = async () => {
   const db = await getDb()
   return db.data.messages.map(removeMetadata)
