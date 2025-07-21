@@ -23,6 +23,20 @@
       "content": "Nice to meet you, Scott! How can I assist you today?",
       "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
       "createdAt": "2024-11-05T17:40:29.361Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "cb33dbf9-1f8a-4629-b077-1a99901fa8ba",
+      "createdAt": "2025-07-21T21:07:49.526Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have real-time weather data access. However, you can easily check the weather by using a weather website or app, or by asking a voice-activated assistant. If you tell me your location, I can suggest how to find the weather information for your area!",
+      "refusal": null,
+      "annotations": [],
+      "id": "189fe79b-841d-40ef-a499-ae7f442ef813",
+      "createdAt": "2025-07-21T21:07:51.459Z"
     }
   ]
 }
