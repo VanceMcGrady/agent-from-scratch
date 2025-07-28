@@ -3,26 +3,47 @@
     {
       "role": "user",
       "content": "how  is the weather?",
-      "id": "a668ab57-76c9-4a6b-8867-752c4524abea",
-      "createdAt": "2025-07-21T22:19:15.567Z"
+      "id": "601458c6-aaa9-42b6-a471-d166d77a59d5",
+      "createdAt": "2025-07-21T22:20:25.168Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please specify the location for which you would like to know the weather?",
+      "refusal": null,
+      "annotations": [],
+      "id": "71fcb71a-e3e2-4ec8-9378-ad80c65f5c4a",
+      "createdAt": "2025-07-21T22:20:26.776Z"
+    },
+    {
+      "role": "user",
+      "content": "Phoenix, AZ",
+      "id": "a13133f6-cf8f-40f9-a844-0d2e26241ae8",
+      "createdAt": "2025-07-21T22:20:54.788Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_sCPboZFfPinnPS8jJvzmnLKN",
+          "id": "call_LM5iCQKnRXHFNaJu8tG9xBaU",
           "type": "function",
           "function": {
-            "name": "get_stuff",
-            "arguments": "{\"reasoning\":\"To provide accurate weather information.\"}"
+            "name": "get_weather",
+            "arguments": "{\"reasoning\":\"To provide the current weather information for Phoenix, AZ.\"}"
           }
         }
       ],
       "refusal": null,
       "annotations": [],
-      "id": "232b55da-65c9-40d0-8320-74fb540810ce",
-      "createdAt": "2025-07-21T22:19:16.705Z"
+      "id": "89aac93f-b6ce-4d4e-ab68-635d1f79f148",
+      "createdAt": "2025-07-21T22:20:56.042Z"
+    },
+    {
+      "role": "tool",
+      "content": " hot, 117, cloudy",
+      "tool_call_id": "call_LM5iCQKnRXHFNaJu8tG9xBaU",
+      "id": "ceb95ed9-2f59-467a-9e34-ef1974aff8c4",
+      "createdAt": "2025-07-21T22:20:56.043Z"
     }
   ]
 }
